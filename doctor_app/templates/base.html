@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<!-- Mirrored from haintheme.com/demo/html/listiry/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 May 2020 06:10:44 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listiry</title>
+    <link href="../../../../fonts.googleapis.com/cssd894.css?family=Cabin:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/aditional.css' %}">
+</head>
+
+
+<header id="masthead" class="site-header site-header--layout-1 site-header--fluid site-header--absolute">
+    <div class="d-lg-flex justify-content-lg-between align-items-lg-center site-header__container">
+        <div class="d-lg-flex align-items-lg-center">
+            <div class="site-header__logo">
+                <a href="index-2.html">
+                    <h1 class="screen-reader-text">Listiry</h1>
+                    <img src="{% static 'images/logo-1.png' %}" alt="Listiry">
+                </a>
+            </div><!-- .site-header__logo -->
+
+            <form class="d-none d-xl-block top-search-form" action="http://haintheme.com/demo/html/listiry/index.html">
+                <input type="search" name="s" class="top-search-form__input" placeholder="Search places or anything...">
+            </form>
+        </div>
+
+        <div class="d-lg-flex align-items-lg-center">
+            <ul class="min-list main-navigation main-navigation--white">
+                <li>
+                    <a href="#">Home</a>
+                    <ul class="min-list">
+                        <li>
+                            <a href="index-2.html">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="index-3.html">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="index-4.html">Home 3</a>
+                        </li>
+                        <li>
+                            <a href="index-5.html">Home 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Listings</a>
+                    <ul class="min-list">
+                        <li>
+                            <a href="listing-1.html">Listings Column Map 1</a>
+                        </li>
+                        <li>
+                            <a href="listing-2.html">Listings Column Map 2</a>
+                        </li>
+                        <li>
+                            <a href="listing-3.html">Listings Column Map 3</a>
+                        </li>
+                        <li>
+                            <a href="listing-5.html">Listings Fullwidth Map</a>
+                        </li>
+                        <li>
+                            <a href="listing-4.html">Listings Without Map</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Single Listing</a>
+                    <ul class="min-list">
+                        <li>
+                            <a href="single-listing-1.html">Single Listing 1</a>
+                        </li>
+                        <li>
+                            <a href="single-listing-2.html">Single Listing 2</a>
+                        </li>
+                        <li>
+                            <a href="single-listing-3.html">Single Listing 3</a>
+                        </li>
+                        <li>
+                            <a href="single-listing-4.html">Single Listing 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul class="min-list">
+                        <li>
+                            <a href="#">My Account</a>
+                            <ul class="min-list">
+                                <li>
+                                    <a href="profile.html">My Profile</a>
+                                </li>
+                                <li>
+                                    <a href="my-listings.html">My Listings</a>
+                                </li>
+                                <li>
+                                    <a href="bookmarked-listings.html">Bookmarked Listings</a>
+                                </li>
+                                <li>
+                                    <a href="change-password.html">Change Password</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="coming-soon.html">Coming Soon</a>
+                        </li>
+                        <li>
+                            <a href="404.html">404 Page</a>
+                        </li>
+                        <li>
+                            <a href="pricing-table.html">Pricing Table</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login/Signup</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul><!-- .main-navigation -->
+
+            <div class="user-action">
+                <a href="login.html" class="sign-in c-white">
+                    <i class="fa fa-user"></i>
+                    Sign in
+                </a>
+                <button class="button button--small button--pill button--primary d-none d-lg-inline-block">&plus; Add
+                    Listing
+                </button>
+            </div><!-- .user-action -->
+        </div>
+
+        <div class="d-lg-none nav-mobile">
+            <a href="#" class="nav-toggle js-nav-toggle nav-toggle--white">
+                <span></span>
+            </a><!-- .nav-toggle -->
+        </div><!-- .nav-mobile -->
+    </div><!-- .site-header__container -->
+</header><!-- #masthead -->
+{% block body %}
+
+{% endblock %}<!-- .news -->
+<footer id="colophone" class="site-footer">
+    <div class="t-center site-footer__primary">
+        <div class="container">
+            <div class="site-footer__logo">
+                <a href="index-2.html">
+                    <h1 class="screen-reader-text">Listiry</h1>
+                    <img src="assets/images/logo-footer.png" alt="Listiry">
+                </a>
+            </div>
+            <p class="t-small">Listiry is making finding destination faster, easier, and customized for you.</p>
+            <ul class="min-list inline-list site-footer__links site-footer__social">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- .site-footer__primary -->
+
+    <div class="site-footer__secondary">
+        <div class="container">
+            <div class="site-footer__secondary-wrapper">
+                <p class="site-footer__copyright">&copy; 2018
+                    <span class="c-secondary">Listiry</span> by Felix. All Rights Reserved.</p>
+                <ul class="min-list inline-list site-footer__links site-footer__details">
+                    <li>
+                        <a href="tel:+0987654321">Tel: +098 765 4321</a>
+                    </li>
+                    <li>
+                        <a href="#">Get this theme</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- .site-footer__secondary -->
+</footer><!-- #colophone -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+<script src="../../../../cdn.rawgit.com/googlemaps/v3-utility-library/master/infobox/src/infobox.js"></script>
+<script src="assets/scripts/app.js"></script>
+
+<!-- Mirrored from haintheme.com/demo/html/listiry/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 May 2020 06:11:41 GMT -->
+</html>

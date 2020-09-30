@@ -1,0 +1,10 @@
+.page-content{
+    margin-top: 7%;
+}
+
+@media screen and (max-width: 768px){
+    .page-content{
+    margin-top: 20%;
+}
+
+}
